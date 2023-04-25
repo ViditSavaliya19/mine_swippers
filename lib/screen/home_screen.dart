@@ -16,7 +16,7 @@ class HomeScreenState extends State<HomeScreen> {
   bool isAutoOpen = true;
   GameState gameState = GameState.general;
 
-  int h=7,w=8;
+  int h=10,w=10;
 
   @override
   void initState() {

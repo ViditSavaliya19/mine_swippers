@@ -20,7 +20,7 @@ extension abc on HomeScreenState {
     for (int i = 0; i < h; i++) {
       for (int j = 0; j < w; j++) {
         int no = Random().nextInt(100);
-        if (no < 60) {
+        if (no < 13) {
           noOfBomb++;
           data[i][j].no = 9;
         }
